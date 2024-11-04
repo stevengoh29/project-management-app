@@ -1,0 +1,16 @@
+server:
+  port: 10000
+
+# SPRING
+spring:
+  application:
+    name: auth-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/auth-server-db
+    username: root
+    password: Mestika$123
+
+# LOGGING
+logging:
+  level:
+    org.springframework.security: INFO
